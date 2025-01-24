@@ -42,11 +42,25 @@ accountBalance = accountBalance / 10;
 console.log("divided by 10:", accountBalance);
 
 ///////////////////////////////
-// Task 4: String Data Type //
+// Task 4: String Data Type ///
 ///////////////////////////////
 
 let customerName = "James Randall";
 
 let welcomeMessage = "Welcome " + customerName;
 console.log(welcomeMessage);
+
+////////////////////////////////
+// Task 5: Boolean Data Type ///
+////////////////////////////////
+
+
+let username = "admin";
+let password = "1234";
+
+let isLoggedIn = username === "admin" && password === "1234";
+console.log("This should be true", isLoggedIn);
+
+isLoggedIn = username === "admin" && password === "1111";
+console.log("This should be false", isLoggedIn);
 
