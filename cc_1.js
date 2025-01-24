@@ -23,7 +23,7 @@ console.log("productPrice", productPrice, "type", typeof productPrice);
 console.log("isAvailable", isAvailable, "type", typeof isAvailable);
 
 //////////////////////////////
-// Task 3: String Data Type //
+// Task 3: Number Data Type //
 //////////////////////////////
 
 let accountBalance = 1500;
@@ -41,5 +41,12 @@ console.log("multiplying by 1.5:", accountBalance);
 accountBalance = accountBalance / 10;
 console.log("divided by 10:", accountBalance);
 
+///////////////////////////////
+// Task 4: String Data Type //
+///////////////////////////////
 
+let customerName = "James Randall";
+
+let welcomeMessage = "Welcome " + customerName;
+console.log(welcomeMessage);
 
