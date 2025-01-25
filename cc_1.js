@@ -2,6 +2,9 @@
 // Task 1: Variables //
 ///////////////////////
 
+console.log('--------------------------------------');
+console.log('Task 1: Variables');
+
 let employeeName = "Bill Miller";
 const employeeID = 123;
 var isActive = true;
@@ -14,6 +17,9 @@ console.log("isActive", isActive, "type", typeof isActive);
 // Task 2: Primitive Data Types //
 //////////////////////////////////
 
+console.log('--------------------------------------');
+console.log('Task 2: Primitive Data Types');
+
 let productName = "Cup";
 const productPrice = 4.64;
 var isAvailable = true;
@@ -25,6 +31,9 @@ console.log("isAvailable", isAvailable, "type", typeof isAvailable);
 //////////////////////////////
 // Task 3: Number Data Type //
 //////////////////////////////
+
+console.log('--------------------------------------');
+console.log('Task 3: Number Data Type');
 
 let accountBalance = 1500;
 console.log("Initial Value", accountBalance);
@@ -45,6 +54,9 @@ console.log("divided by 10:", accountBalance);
 // Task 4: String Data Type ///
 ///////////////////////////////
 
+console.log('--------------------------------------');
+console.log('Task 4: String Data Type');
+
 let customerName = "James Randall";
 
 let welcomeMessage = "Welcome " + customerName;
@@ -53,6 +65,9 @@ console.log(welcomeMessage);
 ////////////////////////////////
 // Task 5: Boolean Data Type ///
 ////////////////////////////////
+
+console.log('--------------------------------------');
+console.log('Task 5: Boolean Data Type');
 
 
 let username = "admin";
